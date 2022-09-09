@@ -59,6 +59,7 @@ public class StepDefination extends Utils
 	{
 		assertEquals(response.getStatusCode(), 200);
 		System.out.println("Status code success is 200");
+		System.out.println("Status code success is 200");
 	}
 
 	@Then("{string} in response body is {string}")
